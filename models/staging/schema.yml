@@ -1,0 +1,107 @@
+version: 2
+
+models:
+  - name: stg_coaches
+    columns:
+      - name: full_name
+        tests:
+          - not_null
+      - name: phone_number
+        tests:
+          - not_null
+
+  - name: stg_dancers
+    columns:
+      - name: full_name
+        tests:
+          - not_null
+      - name: phone_number
+        tests:
+          - not_null
+
+  - name: stg_classes
+    columns:
+      - name: class_name
+        tests:
+          - not_null
+          - unique
+      - name: coach_name
+        tests:
+          - not_null
+      - name: difficulty_level
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['beginner', 'intermediate', 'pro']
+      - name: class_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['team', 'open']
+
+  - name: stg_enrollments
+    columns:
+      - name: enrollment_id
+        tests:
+          - unique
+          - not_null
+      - name: dancer_full_name
+        tests:
+          - not_null
+      - name: status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['active', 'inactive']
+
+  - name: stg_class_schedule
+    columns:
+      - name: class_name
+        tests:
+          - not_null
+      - name: room
+        data_tests:
+          - accepted_values_from_table:
+              other_model: 'manual_settings'
+              other_column: 'setting_value'
+              filter_key: 'setting_key'
+              filter_value: 'valid_room'
+      - name: status
+        data_tests:
+            - accepted_values:
+                arguments:
+                  values: [ 'completed', 'cancelled', 'scheduled' ]
+
+  - name: stg_payments
+    columns:
+      - name: payment_id
+        tests:
+          - unique
+          - not_null
+      - name: dancer_full_name
+        tests:
+          - not_null
+      - name: payment_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['subscription', 'single_class', 'package']
+      - name: target_class
+        data_tests:
+          - accepted_values_from_table:
+              other_model: 'stg_classes'
+              other_column: 'class_name'
+              filter_key: '1'
+              filter_value: '1'
+
+  - name: stg_attendance
+    columns:
+      - name: attendance_id
+        tests:
+          - unique
+          - not_null
+      - name: status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['present', 'absent']

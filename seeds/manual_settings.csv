@@ -1,0 +1,7 @@
+setting_key,setting_value,description
+coach_salary_percentage,0.40,Percentage of income per class that the coach receives (40%)
+studio_rent_fixed_rate,200,Fixed cost of hall rental per hour
+valid_room,Studio A,Approved studio room
+valid_room,Studio B,Approved studio room
+valid_room,Studio C,Approved studio room
+min_dancer_age,4,Minimum age allowed for registration

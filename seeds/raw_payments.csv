@@ -1,0 +1,100 @@
+payment_id,dancer_full_name,amount,payment_date,payment_type,target_class
+3001,Iryna Bondarenko,1500,2026-02-01,subscription,Sky High
+3002,Andrii Shevchenko,1500,2026-02-01,subscription,Sky High
+3003,Olena Tkachenko,1500,2026-02-01,subscription,Sky High
+3004,Dmytro Kovalenko,1500,2026-02-01,subscription,Sky High
+3005,Ivan Lytvyn,1500,2026-02-02,subscription,Sky High
+3006,Anna Sydorenko,1500,2026-02-02,subscription,Sky High
+3007,Serhii Kravets,1500,2026-02-02,subscription,Sky High
+3008,Viktoria Melnyk,1500,2026-02-01,subscription,Urban Move
+3009,Maksym Oliinyk,1500,2026-02-01,subscription,Urban Move
+3010,Oleh Semeno,1500,2026-02-01,subscription,Urban Move
+3011,Yulia Hordiienko,1500,2026-02-02,subscription,Urban Move
+3012,Artem Vasylyshyn,1500,2026-02-02,subscription,Urban Move
+3013,Natalia Rudenko,1500,2026-02-03,subscription,Urban Move
+3014,Denys Klymenko,1500,2026-02-03,subscription,Urban Move
+3015,Oksana Savchenko,1500,2026-02-01,subscription,Start Up
+3016,Roman Lysenko,1500,2026-02-01,subscription,Start Up
+3017,Alina Bilyk,1500,2026-02-02,subscription,Start Up
+3018,Ihor Danyliuk,1500,2026-02-02,subscription,Start Up
+3019,Olha Petruk,1500,2026-02-03,subscription,Start Up
+3020,Vladyslav Boyko,1500,2026-02-03,subscription,Start Up
+3021,Kyrylo Zaitsev,1500,2026-02-04,subscription,Start Up
+3022,Sofia Koval,1500,2026-02-01,subscription,Late Night Crew
+3023,Pavlo Shpak,1500,2026-02-01,subscription,Late Night Crew
+3024,Daryna Havryliuk,1500,2026-02-02,subscription,Late Night Crew
+3025,Mykola Ponomarenko,1500,2026-02-02,subscription,Late Night Crew
+3026,Anastasia Ivanova,1500,2026-02-03,subscription,Late Night Crew
+3027,Yurii Kuznietsov,1500,2026-02-03,subscription,Late Night Crew
+3028,Kateryna Popova,1500,2026-02-04,subscription,Late Night Crew
+3029,Inna Lebedeva,1500,2026-02-01,subscription,Velocity
+3030,Stanislav Kozlov,1500,2026-02-01,subscription,Velocity
+3031,Yana Morozova,1500,2026-02-02,subscription,Velocity
+3032,Oleksandr Volkov,1500,2026-02-02,subscription,Velocity
+3033,Lidia Vasylieva,1500,2026-02-03,subscription,Velocity
+3034,Valerii Bielov,1500,2026-02-03,subscription,Velocity
+3035,Margarita Semenova,1500,2026-02-04,subscription,Velocity
+3036,Valentyn Tyshchenko,1500,2026-02-04,subscription,Velocity
+3037,Tamara Stepanenko,1500,2026-02-01,subscription,Golden Step
+3038,Ruslan Kulyk,1500,2026-02-01,subscription,Golden Step
+3039,Nadiia Hrytsenko,1500,2026-02-02,subscription,Golden Step
+3040,Hryhorii Vlasenko,1500,2026-02-02,subscription,Golden Step
+3041,Svitlana Ihnatovych,1500,2026-02-03,subscription,Golden Step
+3042,Lev Kondratiuk,1500,2026-02-03,subscription,Golden Step
+3043,Liudmyla Honchar,1500,2026-02-04,subscription,Golden Step
+3044,Zoryana Zhuravel,1500,2026-02-01,subscription,Next Gen
+3045,Matvii Babych,1500,2026-02-01,subscription,Next Gen
+3046,Khrystyna Dudka,1500,2026-02-02,subscription,Next Gen
+3047,Zakhar Shulha,1500,2026-02-02,subscription,Next Gen
+3048,Polina Yukhymenko,1500,2026-02-03,subscription,Next Gen
+3049,Antonina Korchuk,1500,2026-02-03,subscription,Next Gen
+3050,Myroslav Zorenko,1500,2026-02-04,subscription,Next Gen
+3051,Larysa Sova,1500,2026-02-01,subscription,Elite Motion
+3052,Ostap Prykhodko,1500,2026-02-01,subscription,Elite Motion
+3053,Raisa Khomiak,1500,2026-02-02,subscription,Elite Motion
+3054,Arsen Kravchuk,1500,2026-02-02,subscription,Elite Motion
+3055,Tamila Rybak,1500,2026-02-03,subscription,Elite Motion
+3056,Anton Solovei,1500,2026-02-03,subscription,Elite Motion
+3057,Olesia Danylenko,1500,2026-02-04,subscription,Elite Motion
+3058,Mark Tereshchenko,1500,2026-02-04,subscription,Elite Motion
+3059,Nina Bilozir,1500,2026-02-01,subscription,Flow State
+3060,Viktor Samoilov,1500,2026-02-01,subscription,Flow State
+3061,Yelyzaveta Starytska,1500,2026-02-02,subscription,Flow State
+3062,Stepan Vovk,1500,2026-02-02,subscription,Flow State
+3063,Maya Hnatyuk,1500,2026-02-03,subscription,Flow State
+3064,Leonid Borovets,1500,2026-02-03,subscription,Flow State
+3065,Alla Opanasenko,1500,2026-02-04,subscription,Flow State
+3066,Petro Kasianenko,1500,2026-02-04,subscription,Flow State
+3067,Veronika Chornovil,1500,2026-02-01,subscription,Shadows
+3068,Hlib Makovetskyi,1500,2026-02-01,subscription,Shadows
+3069,Solomia Kvitka,1500,2026-02-02,subscription,Shadows
+3070,Artur Honcharenko,1500,2026-02-02,subscription,Shadows
+3071,Ulyana Zhuravlova,1500,2026-02-03,subscription,Shadows
+3072,Nazarii Nesterenko,1500,2026-02-03,subscription,Shadows
+3073,Liubov Panchenko,1500,2026-02-04,subscription,Shadows
+3074,Ilya Symonenko,1500,2026-02-04,subscription,Shadows
+3075,Mila Yovenko,1500,2026-02-04,subscription,Shadows
+3076,Marta Ivanova,400,2026-02-05,single_class,Open Contemporary Base
+3077,Oleh Kuz,1200,2026-02-06,package,Open Hip-Hop Cardio
+3078,Yana Sokol,400,2026-02-06,single_class,Open Contemporary Base
+3079,Ihor Bilous,800,2026-02-07,package,Open Breaking Tricks
+3080,Veronika Lys,400,2026-02-08,single_class,Open Contemporary Base
+3081,Pavlo Rudenko,1200,2026-02-10,package,Open Breaking Tricks
+3082,Alina Vovk,400,2026-02-12,single_class,Open Contemporary Base
+3083,Danylo Moroz,800,2026-02-15,package,Open Hip-Hop Cardio
+3084,Mark Kravets,400,2026-02-18,single_class,Open Breaking Tricks
+3085,Olena Zozulya,1200,2026-02-20,package,Open Hip-Hop Cardio
+3086,Diana Kravchuk,400,2026-02-22,single_class,Open Contemporary Base
+3087,Artem Bilyk,800,2026-02-25,package,Open Hip-Hop Cardio
+3088,Kyrylo Polishchuk,1200,2026-02-26,package,Open Breaking Tricks
+3089,Inna Stepanenko,400,2026-02-27,single_class,Open Contemporary Base
+3090,Yurii Danyliv,400,2026-02-28,single_class,Open Hip-Hop Cardio
+3091,Bohdan Sokolov,1200,2026-03-01,package,Open Contemporary Base
+3092,Anastasia Vlasenko,400,2026-03-02,single_class,Open Hip-Hop Cardio
+3093,Mykola Ponomar,800,2026-03-03,package,Open Breaking Tricks
+3094,Kateryna Havrysh,400,2026-03-04,single_class,Open Contemporary Base
+3095,Stanislav Tyshchenko,400,2026-03-05,single_class,Open Hip-Hop Cardio
+3096,Valentyn Popov,1200,2026-03-07,package,Open Breaking Tricks
+3097,Ruslan Boyko,800,2026-03-10,package,Open Hip-Hop Cardio
+3098,Khrystyna Dudka,400,2026-03-12,single_class,Open Contemporary Base
+3099,Matvii Opanas,400,2026-03-15,single_class,Open Hip-Hop Cardio

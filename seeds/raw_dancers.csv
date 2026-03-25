@@ -1,0 +1,117 @@
+full_name,birth_date,gender,phone_number,registration_date,team_name
+Iryna Bondarenko,2010-05-15,female,+380671234567,2024-01-10,Sky High
+Andrii Shevchenko,2009-11-20,male,+380509876543,2024-01-10,Sky High
+Olena Tkachenko,2011-03-12,female,+380631112233,2024-01-12,Sky High
+Dmytro Kovalenko,2008-07-25,male,+380974445566,2024-01-15,Sky High
+Maria Moroz,2012-01-30,female,+380937778899,2024-01-15,Sky High
+Ivan Lytvyn,2010-09-05,male,+380662223344,2024-01-18,Sky High
+Anna Sydorenko,2011-06-18,female,+380985556677,2024-01-20,Sky High
+Serhii Kravets,2009-04-22,male,+380503334455,2024-01-20,Sky High
+Viktoria Melnyk,2010-12-01,female,+380638889900,2024-01-10,Urban Move
+Maksym Oliinyk,2008-02-14,male,+380970001122,2024-01-10,Urban Move
+Tetiana Pavluko,2011-08-28,female,+380671113355,2024-01-12,Urban Move
+Oleh Semeno,2009-05-05,male,+380502224466,2024-01-15,Urban Move
+Yulia Hordiienko,2012-03-17,female,+380633335577,2024-01-15,Urban Move
+Artem Vasylyshyn,2010-11-11,male,+380974446688,2024-01-18,Urban Move
+Natalia Rudenko,2011-01-25,female,+380935557799,2024-01-20,Urban Move
+Denys Klymenko,2008-10-10,male,+380666668800,2024-01-20,Urban Move
+Oksana Savchenko,2010-04-04,female,+380987779911,2024-01-10,Start Up
+Roman Lysenko,2009-06-06,male,+380508880022,2024-01-10,Start Up
+Alina Bilyk,2011-07-07,female,+380639991133,2024-01-12,Start Up
+Ihor Danyliuk,2008-09-09,male,+380971231144,2024-01-15,Start Up
+Olha Petruk,2012-02-02,female,+380932342255,2024-01-15,Start Up
+Vladyslav Boyko,2010-08-08,male,+380663453366,2024-01-18,Start Up
+Diana Polishchuk,2011-12-12,female,+380984564477,2024-01-20,Start Up
+Kyrylo Zaitsev,2009-01-01,male,+380505675588,2024-01-20,Start Up
+Sofia Koval,2010-03-03,female,+380636786699,2024-01-10,Late Night Crew
+Pavlo Shpak,2008-11-11,male,+380977897700,2024-01-10,Late Night Crew
+Daryna Havryliuk,2011-05-05,female,+380938908811,2024-01-12,Late Night Crew
+Mykola Ponomarenko,2009-07-07,male,+380669019922,2024-01-15,Late Night Crew
+Anastasia Ivanova,2012-09-09,female,+380980120033,2024-01-15,Late Night Crew
+Yurii Kuznietsov,2010-02-02,male,+380501231144,2024-01-18,Late Night Crew
+Kateryna Popova,2011-06-06,female,+380632342255,2024-01-20,Late Night Crew
+Bohdan Sokolov,2009-08-08,male,+380973453366,2024-01-20,Late Night Crew
+Inna Lebedeva,2010-12-12,female,+380934564477,2024-01-10,Velocity
+Stanislav Kozlov,2008-04-04,male,+380665675588,2024-01-10,Velocity
+Yana Morozova,2011-10-10,female,+380986786699,2024-01-12,Velocity
+Oleksandr Volkov,2009-02-02,male,+380507897700,2024-01-15,Velocity
+Lidia Vasylieva,2012-01-01,female,+380638908811,2024-01-15,Velocity
+Valerii Bielov,2010-05-05,male,+380979019922,2024-01-18,Velocity
+Margarita Semenova,2011-03-03,female,+380930120033,2024-01-20,Velocity
+Valentyn Tyshchenko,2009-07-07,male,+380661231144,2024-01-20,Velocity
+Tamara Stepanenko,2010-09-09,female,+380982342255,2024-01-10,Golden Step
+Ruslan Kulyk,2008-01-01,male,+380503453366,2024-01-10,Golden Step
+Nadiia Hrytsenko,2011-04-04,female,+380634564477,2024-01-12,Golden Step
+Hryhorii Vlasenko,2009-06-06,male,+380975675588,2024-01-15,Golden Step
+Svitlana Ihnatovych,2012-08-08,female,+380936786699,2024-01-15,Golden Step
+Lev Kondratiuk,2010-10-10,male,+380667897700,2024-01-18,Golden Step
+Liudmyla Honchar,2011-02-02,female,+380988908811,2024-01-20,Golden Step
+Taras Datsenko,2009-12-12,male,+380509019922,2024-01-20,Golden Step
+Zoryana Zhuravel,2010-03-03,female,+380630120033,2024-01-10,Next Gen
+Matvii Babych,2008-05-05,male,+380971231144,2024-01-10,Next Gen
+Khrystyna Dudka,2011-07-07,female,+380932342255,2024-01-12,Next Gen
+Zakhar Shulha,2009-09-09,male,+380663453366,2024-01-15,Next Gen
+Polina Yukhymenko,2012-11-11,female,+380984564477,2024-01-15,Next Gen
+Yevhen Bilous,2010-01-01,male,+380505675588,2024-01-18,Next Gen
+Antonina Korchuk,2011-04-04,female,+380636786699,2024-01-20,Next Gen
+Myroslav Zorenko,2009-06-06,male,+380977897700,2024-01-20,Next Gen
+Larysa Sova,2010-08-08,female,+380938908811,2024-01-10,Elite Motion
+Ostap Prykhodko,2008-10-10,male,+380669019922,2024-01-10,Elite Motion
+Raisa Khomiak,2011-12-12,female,+380980120033,2024-01-12,Elite Motion
+Arsen Kravchuk,2009-02-02,male,+380501231144,2024-01-15,Elite Motion
+Tamila Rybak,2012-04-04,female,+380632342255,2024-01-15,Elite Motion
+Anton Solovei,2010-06-06,male,+380973453366,2024-01-18,Elite Motion
+Olesia Danylenko,2011-08-08,female,+380934564477,2024-01-20,Elite Motion
+Mark Tereshchenko,2009-10-10,male,+380665675588,2024-01-20,Elite Motion
+Nina Bilozir,2010-12-12,female,+380986786699,2024-01-10,Flow State
+Viktor Samoilov,2008-03-03,male,+380507897700,2024-01-10,Flow State
+Yelyzaveta Starytska,2011-05-05,female,+380638908811,2024-01-12,Flow State
+Stepan Vovk,2009-07-07,male,+380979019922,2024-01-15,Flow State
+Maya Hnatyuk,2012-09-09,female,+380930120033,2024-01-15,Flow State
+Leonid Borovets,2010-01-01,male,+380661231144,2024-01-18,Flow State
+Alla Opanasenko,2011-03-03,female,+380982342255,2024-01-20,Flow State
+Petro Kasianenko,2009-05-05,male,+380503453366,2024-01-20,Flow State
+Veronika Chornovil,2010-07-07,female,+380634564477,2024-01-10,Shadows
+Hlib Makovetskyi,2008-09-09,male,+380975675588,2024-01-10,Shadows
+Solomia Kvitka,2011-11-11,female,+380936786699,2024-01-12,Shadows
+Artur Honcharenko,2009-01-01,male,+380667897700,2024-01-15,Shadows
+Ulyana Zhuravlova,2012-03-03,female,+380988908811,2024-01-15,Shadows
+Nazarii Nesterenko,2010-05-05,male,+380509019922,2024-01-18,Shadows
+Liubov Panchenko,2011-07-07,female,+380630120033,2024-01-20,Shadows
+Ilya Symonenko,2009-09-09,male,+380971231144,2024-01-20,Shadows
+Mila Yovenko,2010-11-11,female,+380932342255,2024-01-20,Shadows
+Marta Ivanova,2005-05-12,female,+380663453366,2026-01-15,
+Oleh Kuz,2007-08-20,male,+380984564477,2026-01-16,
+Yana Sokol,2010-02-10,female,+380505675588,2026-01-20,
+Ihor Bilous,2009-11-30,male,+380636786699,2026-01-22,
+Veronika Lys,2011-04-15,female,+380977897700,2026-01-25,
+Pavlo Rudenko,2008-07-07,male,+380938908811,2026-01-26,
+Alina Vovk,2012-01-05,female,+380669019922,2026-01-28,
+Danylo Moroz,2010-09-18,male,+380980120033,2026-01-30,
+Sofia Bondar,2006-03-22,female,+380501231144,2026-02-01,
+Mark Kravets,2009-12-12,male,+380632342255,2026-02-02,
+Olena Zozulya,2005-10-10,female,+380973453366,2026-01-05,
+Viktor Semenov,2006-04-14,male,+380934564477,2026-01-07,
+Diana Kravchuk,2011-11-11,female,+380665675588,2026-01-10,
+Artem Bilyk,2008-05-05,male,+380986786699,2026-01-12,
+Lidiya Honchar,2012-02-28,female,+380507897700,2026-01-15,
+Kyrylo Polishchuk,2010-08-08,male,+380638908811,2026-01-18,
+Inna Stepanenko,2011-12-12,female,+380979019922,2026-01-20,
+Yurii Danyliv,2009-01-01,male,+380930120033,2026-01-22,
+Svitlana Morozova,2010-03-03,female,+380661231144,2026-01-25,
+Bohdan Sokolov,2008-11-11,male,+380971231144,2026-01-28,
+Anastasia Vlasenko,2011-05-05,female,+380932342255,2026-02-01,
+Mykola Ponomar,2009-07-07,male,+380663453366,2026-02-03,
+Kateryna Havrysh,2012-09-09,female,+380984564477,2026-02-05,
+Stanislav Tyshchenko,2010-02-02,male,+380505675588,2026-02-07,
+Nadiya Rudenko,2011-06-06,female,+380636786699,2026-02-10,
+Valentyn Popov,2009-08-08,male,+380977897700,2026-02-12,
+Tamara Lysenko,2010-12-12,female,+380938908811,2026-02-15,
+Ruslan Boyko,2008-04-04,male,+380669019922,2026-02-18,
+Khrystyna Dudka,2011-10-10,female,+380980120033,2026-02-20,
+Matvii Opanas,2009-02-02,male,+380501231144,2026-02-22,
+Ihor Kravchenko,2008-03-15,male,+380671112233,2026-01-10,
+Svitlana Moroz,2011-05-20,female,+380504445566,2026-01-12,
+Dmytro Sydorenko,2009-11-10,male,+380637778899,2026-01-15,
+Anna Melnyk,2012-04-05,female,+380970001122,2026-01-18,
+Yulia Bondar,2010-08-25,female,+380933334455,2026-01-20,

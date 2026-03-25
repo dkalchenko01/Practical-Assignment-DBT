@@ -1,0 +1,43 @@
+class_name,class_date,start_time,end_time,room,status
+Sky High,2026-02-01,18:00,19:30,Studio A,completed
+Urban Move,2026-02-01,19:00,20:00,Studio B,completed
+Open Contemporary Base,2026-02-02,17:00,18:00,Studio C,completed
+Velocity,2026-02-02,18:00,19:30,Studio A,completed
+Late Night Crew,2026-02-03,19:00,20:30,Studio B,completed
+Open Hip-Hop Cardio,2026-02-03,17:00,18:00,Studio C,completed
+Elite Motion,2026-02-04,18:30,20:00,Studio A,completed
+Open Breaking Tricks,2026-02-04,20:00,21:00,Studio B,completed
+Start Up,2026-02-05,17:00,18:30,Studio C,completed
+Golden Step,2026-02-05,19:00,20:30,Studio A,completed
+Open Dancehall Vibes,2026-02-06,18:00,19:00,Studio B,completed
+Next Gen,2026-02-06,19:30,21:00,Studio C,completed
+Flow State,2026-02-07,11:00,12:30,Studio A,completed
+Shadows,2026-02-07,13:00,14:30,Studio B,completed
+Open Ballet for All,2026-02-08,12:00,13:00,Studio C,completed
+Sky High,2026-02-08,18:00,19:30,Studio A,completed
+Urban Move,2026-02-10,19:00,20:00,Studio B,completed
+Open Contemporary Base,2026-02-10,17:00,18:00,Studio C,completed
+Velocity,2026-02-11,18:00,19:30,Studio A,completed
+Late Night Crew,2026-02-11,19:00,20:30,Studio B,completed
+Open Hip-Hop Cardio,2026-02-12,17:00,18:00,Studio C,completed
+Elite Motion,2026-02-12,18:30,20:00,Studio A,completed
+Open Breaking Tricks,2026-02-13,20:00,21:00,Studio B,completed
+Start Up,2026-02-13,17:00,18:30,Studio C,completed
+Golden Step,2026-02-14,19:00,20:30,Studio A,completed
+Open Dancehall Vibes,2026-02-14,18:00,19:00,Studio B,completed
+Next Gen,2026-02-15,19:30,21:00,Studio C,completed
+Flow State,2026-02-15,11:00,12:30,Studio A,completed
+Shadows,2026-03-01,13:00,14:30,Studio B,completed
+Open Ballet for All,2026-03-01,12:00,13:00,Studio C,completed
+Sky High,2026-03-02,18:00,19:30,Studio A,completed
+Urban Move,2026-03-02,19:00,20:00,Studio B,completed
+Open Contemporary Base,2026-03-03,17:00,18:00,Studio C,completed
+Velocity,2026-03-04,18:00,19:30,Studio A,cancelled
+Late Night Crew,2026-03-05,19:00,20:30,Studio B,completed
+Open Hip-Hop Cardio,2026-03-07,17:00,18:00,Studio C,completed
+Elite Motion,2026-03-08,18:30,20:00,Studio A,completed
+Open Breaking Tricks,2026-03-10,20:00,21:00,Studio B,cancelled
+Start Up,2026-03-12,17:00,18:30,Studio C,completed
+Golden Step,2026-03-14,19:00,20:30,Studio A,completed
+Open Dancehall Vibes,2026-03-15,18:00,19:00,Studio B,completed
+Shadows,2026-03-15,20:00,21:30,Studio A,scheduled

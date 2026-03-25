@@ -1,0 +1,5 @@
+subscription_plan,plan_name,classes_included,price_standard,validity_days
+sub_team_monthly,Team Monthly Pass,12,1500,30
+sub_8_standard,8 Classes Standard,8,1200,30
+sub_4_basic,4 Classes Basic,4,800,30
+sub_single,Single Session,1,400,1

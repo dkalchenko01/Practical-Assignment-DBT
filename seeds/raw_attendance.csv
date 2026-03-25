@@ -1,0 +1,301 @@
+attendance_id,dancer_full_name,class_name,attendance_date,status
+1,Iryna Bondarenko,Sky High,2026-02-01,present
+2,Andrii Shevchenko,Sky High,2026-02-01,present
+3,Olena Tkachenko,Sky High,2026-02-01,absent
+4,Dmytro Kovalenko,Sky High,2026-02-01,present
+5,Maria Moroz,Sky High,2026-02-01,present
+6,Ivan Lytvyn,Sky High,2026-02-01,present
+7,Anna Sydorenko,Sky High,2026-02-01,present
+8,Serhii Kravets,Sky High,2026-02-01,present
+9,Viktoria Melnyk,Urban Move,2026-02-01,present
+10,Maksym Oliinyk,Urban Move,2026-02-01,present
+11,Oleh Semeno,Urban Move,2026-02-01,present
+12,Yulia Hordiienko,Urban Move,2026-02-01,absent
+13,Artem Vasylyshyn,Urban Move,2026-02-01,present
+14,Natalia Rudenko,Urban Move,2026-02-01,present
+15,Denys Klymenko,Urban Move,2026-02-01,present
+16,Oksana Savchenko,Urban Move,2026-02-01,present
+17,Roman Lysenko,Start Up,2026-02-02,present
+18,Alina Bilyk,Start Up,2026-02-02,present
+19,Ihor Danyliuk,Start Up,2026-02-02,present
+20,Olha Petruk,Start Up,2026-02-02,absent
+21,Vladyslav Boyko,Start Up,2026-02-02,present
+22,Kyrylo Zaitsev,Start Up,2026-02-02,present
+23,Sofia Koval,Start Up,2026-02-02,present
+24,Pavlo Shpak,Start Up,2026-02-02,present
+25,Marta Ivanova,Open Contemporary Base,2026-02-02,present
+26,Yana Sokol,Open Contemporary Base,2026-02-02,present
+27,Daryna Havryliuk,Late Night Crew,2026-02-02,present
+28,Mykola Ponomarenko,Late Night Crew,2026-02-02,present
+29,Anastasia Ivanova,Late Night Crew,2026-02-02,present
+30,Yurii Kuznietsov,Late Night Crew,2026-02-02,absent
+31,Kateryna Popova,Late Night Crew,2026-02-02,present
+32,Inna Lebedeva,Late Night Crew,2026-02-02,present
+33,Stanislav Kozlov,Late Night Crew,2026-02-02,present
+34,Yana Morozova,Late Night Crew,2026-02-02,present
+35,Oleksandr Volkov,Velocity,2026-02-03,present
+36,Lidia Vasylieva,Velocity,2026-02-03,present
+37,Valerii Bielov,Velocity,2026-02-03,present
+38,Margarita Semenova,Velocity,2026-02-03,present
+39,Valentyn Tyshchenko,Velocity,2026-02-03,absent
+40,Tamara Stepanenko,Velocity,2026-02-03,present
+41,Ruslan Kulyk,Velocity,2026-02-03,present
+42,Nadiia Hrytsenko,Velocity,2026-02-03,present
+43,Veronika Lys,Open Breaking Tricks,2026-02-03,present
+44,Olena Zozulya,Open Breaking Tricks,2026-02-03,present
+45,Artem Bilyk,Open Breaking Tricks,2026-02-03,present
+46,Hryhorii Vlasenko,Golden Step,2026-02-04,present
+47,Svitlana Ihnatovych,Golden Step,2026-02-04,present
+48,Lev Kondratiuk,Golden Step,2026-02-04,present
+49,Liudmyla Honchar,Golden Step,2026-02-04,present
+50,Zoryana Zhuravel,Golden Step,2026-02-04,absent
+51,Matvii Babych,Golden Step,2026-02-04,present
+52,Khrystyna Dudka,Golden Step,2026-02-04,present
+53,Zakhar Shulha,Golden Step,2026-02-04,present
+54,Oleh Kuz,Open Hip-Hop Cardio,2026-02-04,present
+55,Ihor Bilous,Open Hip-Hop Cardio,2026-02-04,present
+56,Pavlo Rudenko,Open Hip-Hop Cardio,2026-02-04,present
+57,Polina Yukhymenko,Next Gen,2026-02-05,present
+58,Antonina Korchuk,Next Gen,2026-02-05,present
+59,Myroslav Zorenko,Next Gen,2026-02-05,present
+60,Larysa Sova,Next Gen,2026-02-05,absent
+61,Ostap Prykhodko,Next Gen,2026-02-05,present
+62,Raisa Khomiak,Next Gen,2026-02-05,present
+63,Arsen Kravchuk,Next Gen,2026-02-05,present
+64,Tamila Rybak,Next Gen,2026-02-05,present
+65,Anton Solovei,Elite Motion,2026-02-05,present
+66,Olesia Danylenko,Elite Motion,2026-02-05,present
+67,Mark Tereshchenko,Elite Motion,2026-02-05,present
+68,Nina Bilozir,Elite Motion,2026-02-05,present
+69,Viktor Samoilov,Elite Motion,2026-02-05,absent
+70,Yelyzaveta Starytska,Elite Motion,2026-02-05,present
+71,Stepan Vovk,Elite Motion,2026-02-05,present
+72,Maya Hnatyuk,Elite Motion,2026-02-05,present
+73,Marta Ivanova,Open Contemporary Base,2026-02-06,present
+74,Alina Vovk,Open Contemporary Base,2026-02-06,present
+75,Inna Stepanenko,Open Contemporary Base,2026-02-06,present
+76,Leonid Borovets,Flow State,2026-02-06,present
+77,Alla Opanasenko,Flow State,2026-02-06,present
+78,Petro Kasianenko,Flow State,2026-02-06,present
+79,Veronika Chornovil,Flow State,2026-02-06,absent
+80,Hlib Makovetskyi,Flow State,2026-02-06,present
+81,Solomia Kvitka,Flow State,2026-02-06,present
+82,Artur Honcharenko,Flow State,2026-02-06,present
+83,Ulyana Zhuravlova,Flow State,2026-02-06,present
+84,Nazarii Nesterenko,Shadows,2026-02-07,present
+85,Liubov Panchenko,Shadows,2026-02-07,present
+86,Ilya Symonenko,Shadows,2026-02-07,present
+87,Mila Yovenko,Shadows,2026-02-07,present
+88,Svitlana Moroz,Shadows,2026-02-07,absent
+89,Dmytro Sydorenko,Shadows,2026-02-07,present
+90,Ihor Kravchenko,Shadows,2026-02-07,present
+91,Anna Melnyk,Shadows,2026-02-07,present
+92,Yulia Bondar,Shadows,2026-02-07,present
+93,Yana Sokol,Open Contemporary Base,2026-02-08,present
+94,Pavlo Rudenko,Open Contemporary Base,2026-02-08,present
+95,Bohdan Sokolov,Open Contemporary Base,2026-02-08,present
+96,Iryna Bondarenko,Sky High,2026-02-08,present
+97,Andrii Shevchenko,Sky High,2026-02-08,present
+98,Olena Tkachenko,Sky High,2026-02-08,absent
+99,Dmytro Kovalenko,Sky High,2026-02-08,present
+100,Maria Moroz,Sky High,2026-02-08,present
+101,Ivan Lytvyn,Sky High,2026-02-08,present
+102,Anna Sydorenko,Sky High,2026-02-08,present
+103,Serhii Kravets,Sky High,2026-02-08,present
+104,Viktoria Melnyk,Urban Move,2026-02-10,present
+105,Maksym Oliinyk,Urban Move,2026-02-10,present
+106,Oleh Semeno,Urban Move,2026-02-10,present
+107,Yulia Hordiienko,Urban Move,2026-02-10,absent
+108,Marta Ivanova,Open Contemporary Base,2026-02-10,present
+109,Yana Sokol,Open Contemporary Base,2026-02-10,present
+110,Veronika Lys,Open Contemporary Base,2026-02-10,present
+111,Oleksandr Volkov,Velocity,2026-02-11,present
+112,Lidia Vasylieva,Velocity,2026-02-11,present
+113,Valerii Bielov,Velocity,2026-02-11,present
+114,Margarita Semenova,Velocity,2026-02-11,absent
+115,Sofia Koval,Late Night Crew,2026-02-11,present
+116,Pavlo Shpak,Late Night Crew,2026-02-11,present
+117,Daryna Havryliuk,Late Night Crew,2026-02-11,present
+118,Veronika Lys,Open Breaking Tricks,2026-02-12,present
+119,Olena Zozulya,Open Breaking Tricks,2026-02-12,present
+120,Artem Bilyk,Open Breaking Tricks,2026-02-12,present
+121,Anton Solovei,Elite Motion,2026-02-12,present
+122,Olesia Danylenko,Elite Motion,2026-02-12,present
+123,Mark Tereshchenko,Elite Motion,2026-02-12,present
+124,Oleh Kuz,Open Hip-Hop Cardio,2026-02-13,present
+125,Ihor Bilous,Open Hip-Hop Cardio,2026-02-13,present
+126,Pavlo Rudenko,Open Hip-Hop Cardio,2026-02-13,absent
+127,Sofia Koval,Late Night Crew,2026-02-13,present
+128,Pavlo Shpak,Late Night Crew,2026-02-13,present
+129,Daryna Havryliuk,Late Night Crew,2026-02-13,present
+130,Hryhorii Vlasenko,Golden Step,2026-02-14,present
+131,Svitlana Ihnatovych,Golden Step,2026-02-14,present
+132,Marta Ivanova,Open Contemporary Base,2026-02-14,present
+133,Alina Vovk,Open Contemporary Base,2026-02-14,present
+134,Polina Yukhymenko,Next Gen,2026-02-15,present
+135,Antonina Korchuk,Next Gen,2026-02-15,present
+136,Leonid Borovets,Flow State,2026-02-15,present
+137,Alla Opanasenko,Flow State,2026-02-15,present
+138,Nazarii Nesterenko,Shadows,2026-03-01,present
+139,Liubov Panchenko,Shadows,2026-03-01,present
+140,Yana Sokol,Open Contemporary Base,2026-03-01,present
+141,Pavlo Rudenko,Open Contemporary Base,2026-03-01,absent
+142,Iryna Bondarenko,Sky High,2026-03-02,present
+143,Andrii Shevchenko,Sky High,2026-03-02,present
+144,Olena Tkachenko,Sky High,2026-03-02,present
+145,Viktoria Melnyk,Urban Move,2026-03-02,present
+146,Maksym Oliinyk,Urban Move,2026-03-02,present
+147,Marta Ivanova,Open Contemporary Base,2026-03-03,present
+148,Yana Sokol,Open Contemporary Base,2026-03-03,present
+149,Oleksandr Volkov,Velocity,2026-03-04,present
+150,Lidia Vasylieva,Velocity,2026-03-04,present
+151,Sofia Koval,Late Night Crew,2026-03-05,present
+152,Pavlo Shpak,Late Night Crew,2026-03-05,present
+153,Veronika Lys,Open Breaking Tricks,2026-03-07,present
+154,Olena Zozulya,Open Breaking Tricks,2026-03-07,present
+155,Anton Solovei,Elite Motion,2026-03-08,present
+156,Olesia Danylenko,Elite Motion,2026-03-08,present
+157,Oleh Kuz,Open Hip-Hop Cardio,2026-03-10,present
+158,Ihor Bilous,Open Hip-Hop Cardio,2026-03-10,present
+159,Sofia Koval,Late Night Crew,2026-03-12,present
+160,Pavlo Shpak,Late Night Crew,2026-03-12,present
+161,Hryhorii Vlasenko,Golden Step,2026-03-14,present
+162,Svitlana Ihnatovych,Golden Step,2026-03-14,present
+163,Marta Ivanova,Open Contemporary Base,2026-03-15,present
+164,Alina Vovk,Open Contemporary Base,2026-03-15,present
+165,Nazarii Nesterenko,Shadows,2026-03-15,present
+166,Liubov Panchenko,Shadows,2026-03-15,absent
+167,Iryna Bondarenko,Sky High,2026-02-15,present
+168,Andrii Shevchenko,Sky High,2026-02-15,present
+169,Olena Tkachenko,Sky High,2026-02-15,present
+170,Dmytro Kovalenko,Sky High,2026-02-15,present
+171,Maria Moroz,Sky High,2026-02-15,present
+172,Ivan Lytvyn,Sky High,2026-02-15,present
+173,Anna Sydorenko,Sky High,2026-02-15,present
+174,Serhii Kravets,Sky High,2026-02-15,present
+175,Viktoria Melnyk,Urban Move,2026-02-15,present
+176,Maksym Oliinyk,Urban Move,2026-02-15,present
+177,Oleh Semeno,Urban Move,2026-02-15,present
+178,Yulia Hordiienko,Urban Move,2026-02-15,present
+179,Artem Vasylyshyn,Urban Move,2026-02-15,present
+180,Natalia Rudenko,Urban Move,2026-02-15,present
+181,Denys Klymenko,Urban Move,2026-02-15,present
+182,Oksana Savchenko,Urban Move,2026-02-15,absent
+183,Oleh Kuz,Open Hip-Hop Cardio,2026-02-18,present
+184,Ihor Bilous,Open Hip-Hop Cardio,2026-02-18,present
+185,Pavlo Rudenko,Open Hip-Hop Cardio,2026-02-18,present
+186,Danylo Moroz,Open Hip-Hop Cardio,2026-02-18,present
+187,Mark Kravets,Open Hip-Hop Cardio,2026-02-18,present
+188,Olena Zozulya,Open Hip-Hop Cardio,2026-02-18,present
+189,Artem Bilyk,Open Hip-Hop Cardio,2026-02-18,present
+190,Kyrylo Polishchuk,Open Hip-Hop Cardio,2026-02-18,absent
+191,Anton Solovei,Golden Step,2026-02-20,present
+192,Olesia Danylenko,Golden Step,2026-02-20,present
+193,Mark Tereshchenko,Golden Step,2026-02-20,present
+194,Nina Bilozir,Golden Step,2026-02-20,present
+195,Viktor Samoilov,Golden Step,2026-02-20,present
+196,Yelyzaveta Starytska,Golden Step,2026-02-20,present
+197,Stepan Vovk,Golden Step,2026-02-20,present
+198,Maya Hnatyuk,Golden Step,2026-02-20,present
+199,Inna Stepanenko,Open Contemporary Base,2026-02-21,present
+200,Yurii Danyliv,Open Contemporary Base,2026-02-21,present
+201,Iryna Bondarenko,Sky High,2026-03-02,present
+202,Andrii Shevchenko,Sky High,2026-03-02,present
+203,Olena Tkachenko,Sky High,2026-03-02,present
+204,Dmytro Kovalenko,Sky High,2026-03-02,absent
+205,Maria Moroz,Sky High,2026-03-02,present
+206,Ivan Lytvyn,Sky High,2026-03-02,present
+207,Anna Sydorenko,Sky High,2026-03-02,present
+208,Serhii Kravets,Sky High,2026-03-02,present
+209,Viktoria Melnyk,Urban Move,2026-03-02,present
+210,Maksym Oliinyk,Urban Move,2026-03-02,present
+211,Oleh Semeno,Urban Move,2026-03-02,present
+212,Yulia Hordiienko,Urban Move,2026-03-02,present
+213,Artem Vasylyshyn,Urban Move,2026-03-02,absent
+214,Marta Ivanova,Open Contemporary Base,2026-03-03,present
+215,Pavlo Rudenko,Open Contemporary Base,2026-03-03,present
+216,Veronika Lys,Open Contemporary Base,2026-03-03,present
+217,Kyrylo Polishchuk,Open Contemporary Base,2026-03-03,present
+218,Artem Bilyk,Open Contemporary Base,2026-03-03,present
+219,Oleksandr Volkov,Velocity,2026-03-04,present
+220,Lidia Vasylieva,Velocity,2026-03-04,present
+221,Valerii Bielov,Velocity,2026-03-04,present
+222,Margarita Semenova,Velocity,2026-03-04,present
+223,Valentyn Tyshchenko,Velocity,2026-03-04,absent
+224,Sofia Koval,Late Night Crew,2026-03-05,present
+225,Pavlo Shpak,Late Night Crew,2026-03-05,present
+226,Daryna Havryliuk,Late Night Crew,2026-03-05,present
+227,Mykola Ponomarenko,Late Night Crew,2026-03-05,present
+228,Anastasia Ivanova,Late Night Crew,2026-03-05,present
+229,Veronika Lys,Open Breaking Tricks,2026-03-07,present
+230,Olena Zozulya,Open Breaking Tricks,2026-03-07,present
+231,Artem Bilyk,Open Breaking Tricks,2026-03-07,present
+232,Mykola Ponomar,Open Breaking Tricks,2026-03-07,present
+233,Valentyn Popov,Open Breaking Tricks,2026-03-07,absent
+234,Anton Solovei,Elite Motion,2026-03-08,present
+235,Olesia Danylenko,Elite Motion,2026-03-08,present
+236,Mark Tereshchenko,Elite Motion,2026-03-08,present
+237,Nina Bilozir,Elite Motion,2026-03-08,present
+238,Oleh Kuz,Open Hip-Hop Cardio,2026-03-10,present
+239,Ihor Bilous,Open Hip-Hop Cardio,2026-03-10,present
+240,Pavlo Rudenko,Open Hip-Hop Cardio,2026-03-10,present
+241,Danylo Moroz,Open Hip-Hop Cardio,2026-03-10,present
+242,Sofia Koval,Late Night Crew,2026-03-12,present
+243,Pavlo Shpak,Late Night Crew,2026-03-12,present
+244,Daryna Havryliuk,Late Night Crew,2026-03-12,absent
+245,Mykola Ponomarenko,Late Night Crew,2026-03-12,present
+246,Hryhorii Vlasenko,Golden Step,2026-03-14,present
+247,Svitlana Ihnatovych,Golden Step,2026-03-14,present
+248,Lev Kondratiuk,Golden Step,2026-03-14,present
+249,Liudmyla Honchar,Golden Step,2026-03-14,present
+250,Marta Ivanova,Open Contemporary Base,2026-03-15,present
+251,Alina Vovk,Open Contemporary Base,2026-03-15,present
+252,Inna Stepanenko,Open Contemporary Base,2026-03-15,present
+253,Inna Stepanenko,Open Contemporary Base,2026-03-15,present
+254,Nazarii Nesterenko,Shadows,2026-03-15,present
+255,Liubov Panchenko,Shadows,2026-03-15,present
+256,Ilya Symonenko,Shadows,2026-03-15,absent
+257,Mila Yovenko,Shadows,2026-03-15,present
+258,Yurii Danyliv,Shadows,2026-03-15,present
+259,Iryna Bondarenko,Sky High,2026-03-09,present
+260,Andrii Shevchenko,Sky High,2026-03-09,present
+261,Olena Tkachenko,Sky High,2026-03-09,present
+262,Dmytro Kovalenko,Sky High,2026-03-09,present
+263,Viktoria Melnyk,Urban Move,2026-03-09,present
+264,Maksym Oliinyk,Urban Move,2026-03-09,present
+265,Oleh Semeno,Urban Move,2026-03-09,present
+266,Yulia Hordiienko,Urban Move,2026-03-09,absent
+267,Marta Ivanova,Open Contemporary Base,2026-03-10,present
+268,Pavlo Rudenko,Open Contemporary Base,2026-03-10,present
+269,Veronika Lys,Open Contemporary Base,2026-03-10,present
+270,Oleksandr Volkov,Velocity,2026-03-11,present
+271,Lidia Vasylieva,Velocity,2026-03-11,present
+272,Valerii Bielov,Velocity,2026-03-11,present
+273,Sofia Koval,Late Night Crew,2026-03-12,present
+274,Pavlo Shpak,Late Night Crew,2026-03-12,present
+275,Daryna Havryliuk,Late Night Crew,2026-03-12,absent
+276,Veronika Lys,Open Breaking Tricks,2026-03-14,present
+277,Olena Zozulya,Open Breaking Tricks,2026-03-14,present
+278,Artem Bilyk,Open Breaking Tricks,2026-03-14,present
+279,Anton Solovei,Elite Motion,2026-03-15,present
+280,Olesia Danylenko,Elite Motion,2026-03-15,present
+281,Mark Tereshchenko,Elite Motion,2026-03-15,present
+282,Oleh Kuz,Open Hip-Hop Cardio,2026-03-17,present
+283,Ihor Bilous,Open Hip-Hop Cardio,2026-03-17,present
+284,Pavlo Rudenko,Open Hip-Hop Cardio,2026-03-17,present
+285,Sofia Koval,Late Night Crew,2026-03-19,present
+286,Pavlo Shpak,Late Night Crew,2026-03-19,present
+287,Daryna Havryliuk,Late Night Crew,2026-03-19,absent
+288,Hryhorii Vlasenko,Golden Step,2026-03-21,present
+289,Svitlana Ihnatovych,Golden Step,2026-03-21,present
+290,Lev Kondratiuk,Golden Step,2026-03-21,present
+291,Marta Ivanova,Open Contemporary Base,2026-03-22,present
+292,Alina Vovk,Open Contemporary Base,2026-03-22,present
+293,Inna Stepanenko,Open Contemporary Base,2026-03-22,present
+294,Nazarii Nesterenko,Shadows,2026-03-22,present
+295,Liubov Panchenko,Shadows,2026-03-22,present
+296,Ilya Symonenko,Shadows,2026-03-22,present
+297,Anastasia Vlasenko,Open Contemporary Base,2026-03-22,present
+298,Mykola Ponomar,Open Contemporary Base,2026-03-10,present
+299,Stanislav Tyshchenko,Open Contemporary Base,2026-03-10,present
+300,Ruslan Boyko,Shadows,2026-03-22,absent

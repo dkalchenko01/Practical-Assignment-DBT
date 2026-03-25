@@ -1,0 +1,142 @@
+enrollment_id,dancer_full_name,class_name,enrollment_date,status
+1,Iryna Bondarenko,Sky High,2024-01-10,active
+2,Andrii Shevchenko,Sky High,2024-01-10,active
+3,Olena Tkachenko,Sky High,2024-01-12,active
+4,Dmytro Kovalenko,Sky High,2024-01-15,active
+5,Maria Moroz,Sky High,2024-01-15,inactive
+6,Ivan Lytvyn,Sky High,2024-01-18,active
+7,Anna Sydorenko,Sky High,2024-01-20,active
+8,Serhii Kravets,Sky High,2024-01-20,active
+9,Viktoria Melnyk,Urban Move,2024-01-10,active
+10,Maksym Oliinyk,Urban Move,2024-01-10,active
+11,Oleh Semeno,Urban Move,2024-01-12,inactive
+12,Yulia Hordiienko,Urban Move,2024-01-15,active
+13,Artem Vasylyshyn,Urban Move,2024-01-15,active
+14,Natalia Rudenko,Urban Move,2024-01-18,active
+15,Denys Klymenko,Urban Move,2024-01-20,active
+16,Oksana Savchenko,Urban Move,2024-01-20,active
+17,Roman Lysenko,Late Night Crew,2024-01-10,active
+18,Alina Bilyk,Late Night Crew,2024-01-10,active
+19,Ihor Danyliuk,Late Night Crew,2024-01-12,active
+20,Olha Petruk,Late Night Crew,2024-01-15,active
+21,Vladyslav Boyko,Late Night Crew,2024-01-15,active
+22,Kyrylo Zaitsev,Late Night Crew,2024-01-18,inactive
+23,Sofia Koval,Late Night Crew,2024-01-20,active
+24,Pavlo Shpak,Late Night Crew,2024-01-20,active
+25,Daryna Havryliuk,Velocity,2024-01-10,active
+26,Mykola Ponomarenko,Velocity,2024-01-10,active
+27,Anastasia Ivanova,Velocity,2024-01-12,active
+28,Yurii Kuznietsov,Velocity,2024-01-15,active
+29,Kateryna Popova,Velocity,2024-01-15,active
+30,Inna Lebedeva,Velocity,2024-01-18,active
+31,Stanislav Kozlov,Velocity,2024-01-20,active
+32,Yana Morozova,Velocity,2024-01-20,inactive
+33,Oleksandr Volkov,Start Up,2024-01-10,active
+34,Lidia Vasylieva,Start Up,2024-01-10,active
+35,Valerii Bielov,Start Up,2024-01-12,active
+36,Margarita Semenova,Start Up,2024-01-15,active
+37,Valentyn Tyshchenko,Start Up,2024-01-15,active
+38,Tamara Stepanenko,Start Up,2024-01-18,active
+39,Ruslan Kulyk,Start Up,2024-01-20,active
+40,Nadiia Hrytsenko,Start Up,2024-01-20,active
+41,Hryhorii Vlasenko,Golden Step,2024-01-10,inactive
+42,Svitlana Ihnatovych,Golden Step,2024-01-10,active
+43,Lev Kondratiuk,Golden Step,2024-01-12,active
+44,Liudmyla Honchar,Golden Step,2024-01-15,active
+45,Zoryana Zhuravel,Golden Step,2024-01-15,active
+46,Matvii Babych,Golden Step,2024-01-18,active
+47,Khrystyna Dudka,Golden Step,2024-01-20,active
+48,Zakhar Shulha,Golden Step,2024-01-20,active
+49,Polina Yukhymenko,Next Gen,2024-01-10,active
+50,Antonina Korchuk,Next Gen,2024-01-10,active
+51,Myroslav Zorenko,Next Gen,2024-01-12,active
+52,Larysa Sova,Next Gen,2024-01-15,active
+53,Ostap Prykhodko,Next Gen,2024-01-15,inactive
+54,Raisa Khomiak,Next Gen,2024-01-18,active
+55,Arsen Kravchuk,Next Gen,2024-01-20,active
+56,Tamila Rybak,Next Gen,2024-01-20,active
+57,Anton Solovei,Elite Motion,2024-01-10,active
+58,Olesia Danylenko,Elite Motion,2024-01-10,active
+59,Mark Tereshchenko,Elite Motion,2024-01-12,active
+60,Nina Bilozir,Elite Motion,2024-01-15,active
+61,Viktor Samoilov,Elite Motion,2024-01-15,active
+62,Yelyzaveta Starytska,Elite Motion,2024-01-18,active
+63,Stepan Vovk,Elite Motion,2024-01-20,active
+64,Maya Hnatyuk,Elite Motion,2024-01-20,inactive
+65,Leonid Borovets,Flow State,2024-01-10,active
+66,Alla Opanasenko,Flow State,2024-01-10,active
+67,Petro Kasianenko,Flow State,2024-01-12,active
+68,Veronika Chornovil,Flow State,2024-01-15,active
+69,Hlib Makovetskyi,Flow State,2024-01-15,active
+70,Solomia Kvitka,Flow State,2024-01-18,active
+71,Artur Honcharenko,Flow State,2024-01-20,active
+72,Ulyana Zhuravlova,Flow State,2024-01-20,active
+73,Nazarii Nesterenko,Shadows,2024-01-10,active
+74,Liubov Panchenko,Shadows,2024-01-10,active
+75,Ilya Symonenko,Shadows,2024-01-12,active
+76,Mila Yovenko,Shadows,2024-01-15,active
+77,Svitlana Moroz,Shadows,2024-01-15,active
+78,Dmytro Sydorenko,Shadows,2024-01-18,active
+79,Ihor Kravchenko,Shadows,2024-01-20,active
+80,Anna Melnyk,Shadows,2024-01-20,active
+81,Yulia Bondar,Shadows,2024-01-20,active
+82,Marta Ivanova,Open Contemporary Base,2026-01-15,active
+83,Marta Ivanova,Open Hip-Hop Cardio,2026-01-15,inactive
+84,Oleh Kuz,Open Hip-Hop Cardio,2026-01-16,active
+85,Oleh Kuz,Open Breaking Tricks,2026-01-16,active
+86,Yana Sokol,Open Contemporary Base,2026-01-20,active
+87,Yana Sokol,Open Hip-Hop Cardio,2026-01-20,inactive
+88,Ihor Bilous,Open Breaking Tricks,2026-01-22,active
+89,Ihor Bilous,Open Hip-Hop Cardio,2026-01-22,active
+90,Veronika Lys,Open Contemporary Base,2026-01-25,active
+91,Veronika Lys,Open Hip-Hop Cardio,2026-01-25,active
+92,Pavlo Rudenko,Open Breaking Tricks,2026-01-26,active
+93,Pavlo Rudenko,Open Hip-Hop Cardio,2026-01-26,active
+94,Alina Vovk,Open Contemporary Base,2026-01-28,active
+95,Alina Vovk,Open Hip-Hop Cardio,2026-01-28,active
+96,Danylo Moroz,Open Hip-Hop Cardio,2026-01-30,active
+97,Danylo Moroz,Open Breaking Tricks,2026-01-30,active
+98,Mark Kravets,Open Hip-Hop Cardio,2026-02-01,active
+99,Mark Kravets,Open Hip-Hop Cardio,2026-02-01,inactive
+100,Olena Zozulya,Open Contemporary Base,2026-02-02,active
+101,Olena Zozulya,Open Breaking Tricks,2026-02-02,active
+102,Artem Bilyk,Open Hip-Hop Cardio,2026-01-05,active
+103,Artem Bilyk,Open Hip-Hop Cardio,2026-01-05,active
+104,Bohdan Sokolov,Open Breaking Tricks,2026-01-07,inactive
+105,Bohdan Sokolov,Open Hip-Hop Cardio,2026-01-07,active
+106,Inna Stepanenko,Open Contemporary Base,2026-01-10,active
+107,Inna Stepanenko,Open Hip-Hop Cardio,2026-01-10,active
+108,Kyrylo Polishchuk,Open Breaking Tricks,2026-01-12,active
+109,Kyrylo Polishchuk,Open Hip-Hop Cardio,2026-01-12,active
+110,Yurii Danyliv,Open Contemporary Base,2026-01-15,active
+111,Yurii Danyliv,Open Hip-Hop Cardio,2026-01-15,inactive
+112,Kyrylo Polishchuk,Open Hip-Hop Cardio,2026-01-18,active
+113,Kyrylo Polishchuk,Open Breaking Tricks,2026-01-18,active
+114,Anastasia Vlasenko,Open Hip-Hop Cardio,2026-01-20,active
+115,Anastasia Vlasenko,Open Hip-Hop Cardio,2026-01-20,active
+116,Mykola Ponomar,Open Contemporary Base,2026-01-22,active
+117,Mykola Ponomar,Open Hip-Hop Cardio,2026-01-22,active
+118,Stanislav Tyshchenko,Open Breaking Tricks,2026-01-25,inactive
+119,Stanislav Tyshchenko,Open Hip-Hop Cardio,2026-01-25,active
+120,Ruslan Boyko,Open Contemporary Base,2026-01-28,active
+121,Ruslan Boyko,Open Hip-Hop Cardio,2026-01-28,active
+122,Iryna Bondarenko,Open Hip-Hop Cardio,2026-02-01,active
+123,Iryna Bondarenko,Open Hip-Hop Cardio,2026-02-01,active
+124,Andrii Shevchenko,Open Breaking Tricks,2026-02-03,active
+125,Andrii Shevchenko,Open Hip-Hop Cardio,2026-02-03,inactive
+126,Olena Tkachenko,Open Contemporary Base,2026-02-05,active
+127,Olena Tkachenko,Open Hip-Hop Cardio,2026-02-05,active
+128,Dmytro Kovalenko,Open Breaking Tricks,2026-02-07,active
+129,Dmytro Kovalenko,Open Hip-Hop Cardio,2026-02-07,active
+130,Maria Moroz,Open Contemporary Base,2026-02-10,active
+131,Maria Moroz,Open Hip-Hop Cardio,2026-02-10,active
+132,Ivan Lytvyn,Open Hip-Hop Cardio,2026-02-12,active
+133,Ivan Lytvyn,Open Breaking Tricks,2026-02-12,active
+134,Anna Sydorenko,Open Hip-Hop Cardio,2026-02-15,inactive
+135,Anna Sydorenko,Open Hip-Hop Cardio,2026-02-15,active
+136,Serhii Kravets,Open Contemporary Base,2026-02-18,active
+137,Serhii Kravets,Open Hip-Hop Cardio,2026-02-18,active
+138,Viktoria Melnyk,Open Breaking Tricks,2026-02-20,active
+139,Viktoria Melnyk,Open Hip-Hop Cardio,2026-02-20,active
+140,Maksym Oliinyk,Open Contemporary Base,2026-02-22,active
+141,Maksym Oliinyk,Open Hip-Hop Cardio,2026-02-22,active
