@@ -31,7 +31,7 @@ payment_source as (
 
 transformed as (
     select
-        {{ dbt_utils.generate_surrogate_key(['dancer_full_name', 'payment_date', 'amount']) }} as payment_id,
+        {{ dbt_utils.generate_surrogate_key(['d.dancer_id', 'payment_date', 'amount']) }} as payment_id,
         d.dancer_id,
         c.class_id,
         c.coach_id,

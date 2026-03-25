@@ -44,7 +44,7 @@ joined_dates_classes as (
 
 transformed as (
     select
-        {{ dbt_utils.generate_surrogate_key(['dancer_full_name', 'a.class_name', 'attendance_date']) }} as attendance_id,
+        {{ dbt_utils.generate_surrogate_key(['d.dancer_id', 'a.class_name', 'attendance_date']) }} as attendance_id,
         d.dancer_id,
         j.schedule_id,
         j.class_id,

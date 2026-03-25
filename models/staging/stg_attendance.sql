@@ -9,7 +9,15 @@ transformed as (
         trim(dancer_full_name) as dancer_full_name,
         trim(class_name) as class_name,
         cast(attendance_date as date) as attendance_date,
-        trim(status) as status
+        trim(status) as status,
+        row_number() over(partition by trim(dancer_full_name), trim(class_name), cast(attendance_date as date) order by cast(attendance_id as integer)) as rn
     from source
 )
-select * from transformed
+select
+    attendance_id,
+    dancer_full_name,
+    class_name,
+    attendance_date,
+    status
+from transformed
+where rn = 1

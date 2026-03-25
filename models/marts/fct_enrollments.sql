@@ -30,7 +30,7 @@ enrollment_source as (
 
 transformed as (
     select
-        {{ dbt_utils.generate_surrogate_key(['dancer_full_name', 'e.class_name', 'enrollment_date']) }} as enrollment_id,
+        {{ dbt_utils.generate_surrogate_key(['d.dancer_id', 'e.class_name', 'enrollment_date']) }} as enrollment_id,
         d.dancer_id,
         c.class_id,
         dt.date_id,

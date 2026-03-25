@@ -1,0 +1,356 @@
+version: 2
+
+models:
+  - name: dim_dancers
+    description: "Dimension table with dancer attributes"
+    columns:
+      - name: dancer_id
+        description: "Surrogate primary key for dancer"
+        tests:
+          - unique
+          - not_null
+      - name: full_name
+        description: "Full name of the dancer"
+        tests:
+          - not_null
+
+  - name: dim_classes
+    description: "Dimension table with class attributes"
+    columns:
+      - name: class_id
+        description: "Surrogate primary key for class"
+        tests:
+          - unique
+          - not_null
+      - name: class_name
+        description: "Name of the class"
+        tests:
+          - not_null
+      - name: class_type
+        description: "Type of class"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['open', 'team']
+
+  - name: dim_dates
+    description: "Date dimension table"
+    columns:
+      - name: date_id
+        description: "Surrogate primary key for date"
+        tests:
+          - unique
+          - not_null
+      - name: date_full
+        description: "Full date value"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_schedule
+    description: "Dimension table with class schedule"
+    columns:
+      - name: schedule_id
+        description: "Surrogate primary key for schedule entry"
+        tests:
+          - unique
+          - not_null
+      - name: class_id
+        description: "Foreign key to dim_classes"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_classes')
+              field: class_id
+      - name: status
+        description: "Status of the scheduled class"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['completed', 'cancelled', 'scheduled']
+
+  - name: dim_subscription
+    description: "Dimension table with subscription plans"
+    columns:
+      - name: subscription_id
+        description: "Surrogate primary key for subscription"
+        tests:
+          - unique
+          - not_null
+      - name: price_standard
+        description: "Standard price for the subscription"
+        tests:
+          - not_null
+
+  - name: dim_coaches
+    description: "Dimension table with coach attributes"
+    columns:
+        - name: coach_id
+          description: "Surrogate primary key generated from full_name"
+          tests:
+            - unique
+            - not_null
+        - name: full_name
+          description: "Full name of the coach"
+          tests:
+            - unique
+            - not_null
+        - name: age
+          description: "Calculated age of the coach"
+          tests:
+            - not_null
+
+  - name: dim_teams
+    description: "Dimension table with team class attributes"
+    columns:
+        - name: team_id
+          description: "Surrogate primary key generated from class_name"
+          tests:
+            - unique
+            - not_null
+        - name: team_name
+          description: "Name of the team"
+          tests:
+            - unique
+            - not_null
+        - name: difficulty_level
+          data_tests:
+          - accepted_values:
+              arguments:
+                values: ['beginner', 'intermediate', 'pro']
+        - name: coach_id
+          description: "Foreign key to dim_coaches"
+          tests:
+            - relationships:
+                to: ref('dim_coaches')
+                field: coach_id
+
+  - name: dim_rooms
+    description: "Dimension table with valid studio rooms"
+    columns:
+        - name: room_id
+          description: "Surrogate primary key generated from room_name"
+          tests:
+            - unique
+            - not_null
+        - name: room_name
+          description: "Name of the room"
+          tests:
+            - unique
+            - not_null
+
+
+  - name: fct_payments
+    description: "Fact table with all payments made by dancers"
+    columns:
+      - name: payment_id
+        description: "Surrogate primary key for payment"
+        tests:
+          - unique
+          - not_null
+      - name: dancer_id
+        description: "Foreign key to dim_dancers"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_dancers')
+              field: dancer_id
+      - name: class_id
+        description: "Foreign key to dim_classes"
+        tests:
+          - relationships:
+              to: ref('dim_classes')
+              field: class_id
+      - name: payment_date_id
+        description: "Foreign key to dim_dates"
+        tests:
+          - relationships:
+              to: ref('dim_dates')
+              field: date_id
+      - name: amount
+        description: "Payment amount"
+        tests:
+          - not_null
+      - name: payment_type
+        description: "Type of payment"
+        tests:
+          - not_null
+      - name: subscription_id
+        description: "Reference to subscription or 'invalid payment'"
+        tests:
+          - not_null
+
+  - name: fct_enrollments
+    description: "Fact table with dancer enrollments into classes"
+    columns:
+      - name: enrollment_id
+        description: "Surrogate primary key generated from dancer, class and date"
+        tests:
+          - unique
+          - not_null
+      - name: dancer_id
+        description: "Foreign key to dim_dancers"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_dancers')
+              field: dancer_id
+      - name: class_id
+        description: "Foreign key to dim_classes"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_classes')
+              field: class_id
+      - name: date_id
+        description: "Foreign key to dim_dates"
+        tests:
+          - relationships:
+              to: ref('dim_dates')
+              field: date_id
+      - name: status
+        description: "Enrollment status"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['active', 'inactive']
+
+  - name: fct_attendance
+    description: "Fact table with dancer attendance records"
+    columns:
+      - name: attendance_id
+        description: "Surrogate primary key generated from dancer, class and date"
+        tests:
+          - unique
+          - not_null
+      - name: dancer_id
+        description: "Foreign key to dim_dancers"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_dancers')
+              field: dancer_id
+      - name: schedule_id
+        description: "Foreign key to dim_schedule"
+        tests:
+          - relationships:
+              to: ref('dim_schedule')
+              field: schedule_id
+      - name: class_id
+        description: "Foreign key to dim_classes"
+        tests:
+          - relationships:
+              to: ref('dim_classes')
+              field: class_id
+      - name: coach_id
+        description: "Foreign key to dim_coaches"
+        tests:
+          - relationships:
+              to: ref('dim_coaches')
+              field: coach_id
+      - name: team_id
+        description: "Foreign key to dim_teams"
+        tests:
+          - relationships:
+              to: ref('dim_teams')
+              field: team_id
+      - name: attendance_date_id
+        description: "Foreign key to dim_dates"
+        tests:
+          - relationships:
+              to: ref('dim_dates')
+              field: date_id
+      - name: attendance_date
+        description: "Date of attendance"
+        tests:
+          - not_null
+      - name: status
+        description: "Attendance status"
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['present', 'absent']
+
+  - name: monthly_revenue_by_class_type
+    description: "Mart for monthly revenue analysis by class type"
+    columns:
+      - name: revenue_id
+        description: "Surrogate primary key generated from class_type and reporting_month"
+        tests:
+          - unique
+          - not_null
+      - name: class_type
+        description: "Type of class"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['open', 'team']
+      - name: reporting_month
+        description: "First day of the reporting month"
+        tests:
+          - not_null
+      - name: monthly_revenue
+        description: "Total revenue for the class type in the given month"
+        tests:
+          - not_null
+      - name: active_classes_count
+        description: "Number of completed classes of this type in the month"
+        tests:
+          - not_null
+      - name: revenue_per_training
+        description: "Average revenue per completed class"
+
+  - name: metrics_dancers
+    description: "Mart with dancer attendance statistics and loyalty metrics"
+    columns:
+      - name: dancer_id
+        description: "Foreign key to dim_dancers"
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('dim_dancers')
+              field: dancer_id
+      - name: full_name
+        description: "Full name of the dancer"
+        tests:
+          - not_null
+      - name: registration_date
+        description: "Date when dancer registered"
+        tests:
+          - not_null
+      - name: attendance_rate
+        description: "Ratio of attended to total classes, rounded to 2 decimal places"
+        tests:
+          - not_null
+      - name: attendance_category
+        description: "Category based on attendance rate from get_attendance_category macro"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Gold', 'Silver', 'Bronze', 'Low Attendance']
+
+  - name: fct_coach_earnings
+    description: "Fact table with monthly coach salary calculations based on class revenue"
+    columns:
+      - name: earning_id
+        description: "Surrogate primary key generated from coach_id and reporting_month"
+        tests:
+          - unique
+          - not_null
+      - name: reporting_month
+        description: "First day of the reporting month"
+        tests:
+          - not_null
+      - name: full_name
+        description: "Full name of the coach"
+        tests:
+          - not_null
+      - name: total_paid
+        description: "Total revenue collected for classes taught by this coach in the month"
+        tests:
+          - not_null
+      - name: salary
+        description: "Calculated coach salary as a percentage of total_paid via coach_salary_percentage setting"
+        tests:
+          - not_null

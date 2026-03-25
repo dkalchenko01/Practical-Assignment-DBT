@@ -34,7 +34,7 @@ joined as (
         d.registration_date,
         m.total_classes,
         m.attended_classes,
-        m.attendance_rate,
+        coalesce(m.attendance_rate, 0) as attendance_rate,
         {{ get_attendance_category('m.attendance_rate') }} as attendance_category,
         m.active_lt_days,
         datediff('day', d.registration_date, current_date) as total_lt_days
