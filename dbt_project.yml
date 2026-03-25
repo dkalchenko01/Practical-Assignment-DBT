@@ -28,9 +28,3 @@ models:
       +materialized: table
       +docs:
         node_color: 'gold'
-
-seeds:
-  dance_studio:
-    +column_types:
-      phone_number: varchar
-      email: varchar

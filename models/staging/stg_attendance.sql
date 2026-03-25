@@ -12,6 +12,7 @@ transformed as (
         trim(status) as status,
         row_number() over(partition by trim(dancer_full_name), trim(class_name), cast(attendance_date as date) order by cast(attendance_id as integer)) as rn
     from source
+    qualify rn = 1
 )
 select
     attendance_id,
@@ -20,4 +21,3 @@ select
     attendance_date,
     status
 from transformed
-where rn = 1

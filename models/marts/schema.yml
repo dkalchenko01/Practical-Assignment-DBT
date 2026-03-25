@@ -31,6 +31,7 @@ models:
         tests:
           - not_null
           - accepted_values:
+             arguments:
               values: ['open', 'team']
 
   - name: dim_dates
@@ -60,6 +61,7 @@ models:
         tests:
           - not_null
           - relationships:
+             arguments:
               to: ref('dim_classes')
               field: class_id
       - name: status
@@ -67,6 +69,7 @@ models:
         tests:
           - not_null
           - accepted_values:
+             arguments:
               values: ['completed', 'cancelled', 'scheduled']
 
   - name: dim_subscription
@@ -122,6 +125,7 @@ models:
           description: "Foreign key to dim_coaches"
           tests:
             - relationships:
+               arguments:
                 to: ref('dim_coaches')
                 field: coach_id
 
@@ -153,18 +157,21 @@ models:
         tests:
           - not_null
           - relationships:
+             arguments:
               to: ref('dim_dancers')
               field: dancer_id
       - name: class_id
         description: "Foreign key to dim_classes"
         tests:
           - relationships:
+             arguments:
               to: ref('dim_classes')
               field: class_id
       - name: payment_date_id
         description: "Foreign key to dim_dates"
         tests:
           - relationships:
+             arguments:
               to: ref('dim_dates')
               field: date_id
       - name: amount
@@ -193,6 +200,7 @@ models:
         tests:
           - not_null
           - relationships:
+             arguments:
               to: ref('dim_dancers')
               field: dancer_id
       - name: class_id
@@ -200,12 +208,14 @@ models:
         tests:
           - not_null
           - relationships:
+             arguments:
               to: ref('dim_classes')
               field: class_id
       - name: date_id
         description: "Foreign key to dim_dates"
         tests:
           - relationships:
+             arguments:
               to: ref('dim_dates')
               field: date_id
       - name: status
@@ -213,6 +223,7 @@ models:
         tests:
           - not_null
           - accepted_values:
+             arguments:
               values: ['active', 'inactive']
 
   - name: fct_attendance
@@ -228,36 +239,42 @@ models:
         tests:
           - not_null
           - relationships:
+             arguments:
               to: ref('dim_dancers')
               field: dancer_id
       - name: schedule_id
         description: "Foreign key to dim_schedule"
         tests:
           - relationships:
+             arguments:
               to: ref('dim_schedule')
               field: schedule_id
       - name: class_id
         description: "Foreign key to dim_classes"
         tests:
           - relationships:
+             arguments:
               to: ref('dim_classes')
               field: class_id
       - name: coach_id
         description: "Foreign key to dim_coaches"
         tests:
           - relationships:
+             arguments:
               to: ref('dim_coaches')
               field: coach_id
       - name: team_id
         description: "Foreign key to dim_teams"
         tests:
           - relationships:
+             arguments:
               to: ref('dim_teams')
               field: team_id
       - name: attendance_date_id
         description: "Foreign key to dim_dates"
         tests:
           - relationships:
+             arguments:
               to: ref('dim_dates')
               field: date_id
       - name: attendance_date
@@ -284,6 +301,7 @@ models:
         tests:
           - not_null
           - accepted_values:
+             arguments:
               values: ['open', 'team']
       - name: reporting_month
         description: "First day of the reporting month"
@@ -309,6 +327,7 @@ models:
           - unique
           - not_null
           - relationships:
+             arguments:
               to: ref('dim_dancers')
               field: dancer_id
       - name: full_name
@@ -328,9 +347,10 @@ models:
         tests:
           - not_null
           - accepted_values:
+             arguments:
               values: ['Gold', 'Silver', 'Bronze', 'Low Attendance']
 
-  - name: fct_coach_earnings
+  - name: monthly_coach_earnings
     description: "Fact table with monthly coach salary calculations based on class revenue"
     columns:
       - name: earning_id

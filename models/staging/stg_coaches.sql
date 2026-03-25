@@ -10,8 +10,8 @@ transformed as (
         cast(hire_date as date) as hire_date,
         trim(specialization) as specialization,
         trim(gender) as gender,
-        trim(phone_number) as phone_number,
-        trim(email) as email
+        trim(cast(phone_number as varchar)) as phone_number,
+        trim(cast(email as varchar)) as email
     from source
 )
 select * from transformed

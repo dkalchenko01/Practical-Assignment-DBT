@@ -7,7 +7,7 @@ transformed as (
     select
         trim(full_name) as full_name,
         cast(birth_date as date) as birth_date,
-        trim(phone_number) as phone_number,
+        trim(cast(phone_number as varchar)) as phone_number,
         cast(registration_date as date) as registration_date,
         trim(gender) as gender,
         trim(team_name) as team_name

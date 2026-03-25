@@ -1,0 +1,11 @@
+version: 2
+
+seeds:
+  - name: raw_coaches
+    config:
+      column_types:
+        phone_number: varchar
+  - name: raw_dancers
+    config:
+      column_types:
+        phone_number: varchar
