@@ -2,7 +2,10 @@
   config(
     materialized='incremental',
     unique_key='earning_id',
-    incremental_strategy= 'delete+insert'
+    incremental_strategy= 'delete+insert',
+    incremental_predicates=[
+    "DBT_INTERNAL_DEST.reporting_month > date_trunc('month', current_date) - interval '2 month'"
+    ]
   )
 }}
 
@@ -32,7 +35,7 @@ monthly_payments as (
     inner join completed_classes cc
     on p.class_id = cc.class_id and date_trunc('month', p.payment_date) = cc.reporting_month
     {% if is_incremental() %}
-        where p.payment_date >= date_trunc('month', current_date) - interval '1 month'
+        where p.payment_date >= date_trunc('month', current_date) - interval '2 month'
             {% endif %}
     group by p.coach_id, cc.reporting_month
 ),
